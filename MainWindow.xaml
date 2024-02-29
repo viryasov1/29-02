@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Сотрудники" Margin="5" Click="BtnMoveFirst_OnClick"/>
+            <Button Content="Покупатели" Margin="5" Click="BtnMoveSecond_OnClick"/>
+            <Button Content="Марка" Margin="5" Click="BtnMoveThird_OnClick"/>
+            <Button Content="Мащина" Margin="5" Click="BtnMoveFour_OnClick"/>
+            <Button Content="Продажа" Margin="5" Click="BtnMoveFive_OnClick"/>
+        </StackPanel>
+        <Frame  Name="MainWindowFrame"/>
+    </Grid>
+</Window>
